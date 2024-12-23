@@ -1,0 +1,659 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi", "Hello", "Hey", "Hi there", "Good morning", "Good afternoon",
+        "Greetings", "How are you?"
+      ],
+      "responses": [
+        "Hello! How can I assist you today?", "Hi there! How can I help?",
+        "Hey! How can I be of service today?", "Hello! What can I do for you?"
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "bye", "goodbye", "see you later", "take care",
+        "Catch you later", "Farewell", "See you soon"
+      ],
+      "responses": [
+        "Goodbye! Have a great day.", "See you later!", "Take care! Goodbye.",
+        "Farewell! Hope to see you soon."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks", "Thank you", "That's helpful", "Appreciate it", "Thanks a lot",
+        "Thank you very much", "I appreciate your help"
+      ],
+      "responses": [
+        "You're welcome!", "Happy to help!", "No problem!", "Anytime!"
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "cgmotors",
+      "patterns": [
+        "What is CG Motors?",
+        "Tell me about CG Motors.",
+        "Can you provide details about CG Motors?",
+        "What does CG Motors do?",
+        "Give me information about CG Motors.",
+        "Details about CG Motors.",
+        "What is CG Motors known for?",
+        "Can you explain CG Motors?",
+        "What are the highlights of CG Motors?",
+        "I'd like to know about CG Motors.",
+        "Tell me more about CG Motors.",
+        "Describe CG Motors.",
+        "What is the focus of CG Motors?"
+      ],
+      "responses": [
+        "CG Motors is a newly developed wing of CG Corp Global, a conglomerate with a rich history of experience and trust. It emphasizes green energy vehicles, showcasing a commitment to sustainability and innovation.",
+        "As part of CG Corp Global, CG Motors symbolizes reliability, trust, and continuity. It focuses on providing world-class electric vehicles backed by Nepal's largest and most reliable business house.",
+        "CG Motors, under the umbrella of CG Corp Global, specializes in green energy vehicles. It represents sustainability, innovation, and a legacy of trust and quality.",
+        "CG Motors is committed to delivering high-quality electric vehicles and excellent service. It is supported by CG Corp Global, a trusted conglomerate with a legacy spanning over decades.",
+        "With a focus on sustainability and innovation, CG Motors offers electric vehicles that meet world-class quality benchmarks. It is backed by CG Corp Global, which stands for reliability and trust.",
+        "CG Motors represents a commitment to green energy and ethical business practices. It provides electric vehicles and services with the highest standards, ensuring long-term partnerships with customers."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "brands",
+      "patterns": [
+        "What brands are associated with CG Motors?",
+        "Can you tell me the brands linked with CG Motors?",
+        "List the EV brands under CG Motors.",
+        "Which EV brands does CG Motors distribute?",
+        "Tell me the names of brands associated with CG Motors.",
+        "What brands does CG Motors import and distribute?",
+        "Which brands does CG Motors represent?",
+        "What electric vehicle brands are affiliated with CG Motors?",
+        "Can you name the EV brands linked to CG Motors?",
+        "What are the brands under CG Motors?",
+        "Which brands are imported by CG Motors?",
+        "What are the EV brands associated with CG Motors?",
+        "Who are the authorized brands of CG Motors?"
+      ],
+      "responses": [
+        "CG Motors is associated with multiple EV brands, including Neta, KYC Changan, King Long, GAC Motor, Xpeng, Avatr, and Radar. It is the authorized importer and distributor for these brands.",
+        "The brands linked to CG Motors are Neta, KYC Changan, King Long, GAC Motor, Xpeng, Avatr, and Radar. These brands specialize in innovative electric vehicles and are distributed by CG Motors.",
+        "CG Motors proudly represents seven EV brands: Neta, KYC Changan, King Long, GAC Motor, Xpeng, Avatr, and Radar. It ensures quality and innovation in the market.",
+        "Neta, KYC Changan, King Long, GAC Motor, Xpeng, Avatr, and Radar are the electric vehicle brands under CG Motors, which serves as their authorized distributor.",
+        "CG Motors provides customers access to cutting-edge electric vehicles through its partnership with Neta, KYC Changan, King Long, GAC Motor, Xpeng, Avatr, and Radar.",
+        "As the authorized importer and distributor, CG Motors represents world-class EV brands, including Neta, KYC Changan, King Long, GAC Motor, Xpeng, Avatr, and Radar."
+    ],
+      "context": [""]
+    },
+    {
+      "tag": "neta_models",
+      "patterns": [
+        "What models are available under Neta?",
+        "Can you list the Neta models?",
+        "Tell me about the models offered by Neta.",
+        "What are the available models of Neta?",
+        "Which models does Neta provide?",
+        "What cars are available under the Neta brand?",
+        "List the different models of Neta.",
+        "What options are there for Neta vehicles?",
+        "Tell me the Neta vehicle lineup.",
+        "What Neta models are currently available?",
+        "Can you provide details about the models of Neta?",
+        "What are the available cars under Neta?"
+      ],
+      "responses": [
+        "Neta offers three models: Neta V-fifty, Neta X, and Neta S. The Neta X includes three variants: Neta X four-hundred Comfort, Neta X five-hundred Comfort, and Neta X five-hundred Luxury. The Neta S will launch soon.",
+        "The Neta lineup includes the Neta V-fifty, the Neta X (in three versions: four-hundred Comfort, five-hundred Comfort, and five-hundred Luxury), and the soon-to-be-launched Neta S.",
+        "Neta provides the V-fifty model, the X series (four-hundred Comfort, five-hundred Comfort, and five-hundred Luxury), and the upcoming Neta S.",
+        "Neta's vehicles include the V-fifty, the X series with three options (four-hundred Comfort, five-hundred Comfort, and five-hundred Luxury), and the Neta S, which will be launched soon.",
+        "Currently, Neta offers the V-fifty, the X series (four-hundred Comfort, five-hundred Comfort, and five-hundred Luxury), and the much-anticipated Neta S."
+      ],
+      "context": [""]
+    }, 
+    {
+      "tag": "netav50_specs",
+      "patterns": [
+        "Tell me about NETA V50.",
+        "What features does the NETAV 50 have?",
+        "Can you describe the NETA V50?",
+        "What are the specifications of NETA V50?",
+        "Give me details about the NETA V50.",
+        "What does NETA V50 offer?",
+        "What makes the NETAV 50 unique?",
+        "What are the highlights of the NETA V50?",
+        "Tell me the features of NETA V 50.",
+        "What are the benefits of the NETAV 50?",
+        "What should I know about NETAV50?",
+        "Provide an overview of NETAV 50.",
+        "What are the key features of NETA V50?"
+      ],
+      "responses": [
+        "The Neta V50 is a feature-packed electric vehicle with a remarkable NEDC range of three hundred eighty kilometers. It accelerates from zero to fifty kilometers per hour in under three point nine seconds. The vehicle comes with an eight-year or one hundred fifty thousand kilometers warranty on the battery and motor. Charging from thirty percent to eighty percent takes just twenty minutes with a forty point seven kW DC fast charger.",
+        "The NETA V50 has a spacious design with dimensions of four thousand seventy millimeters in length, one thousand six hundred ninety millimeters in width, and one thousand five hundred forty millimeters in height. It offers a ground clearance of one hundred seventy millimeters and a trunk capacity of three hundred thirty-five liters. The vehicle features leather seats and advanced interior controls, including a twelve-inch screen instrument.",
+        "Key highlights of the NETA V50 include its forty point seven kWh CATL (LFP) battery, a fifty kW electric motor delivering one hundred twenty Newton meters of torque. It also features several safety technologies, such as dual front airbags, ABS+EBD, ESC, and Hill-Start Assist Control.",
+        "The NETA V50 is equipped with advanced safety features, energy-saving options like a HEPA N95 air filter, and stylish exterior elements such as LED daytime running lights, alloy wheels, and a high-mounted stop lamp. These features ensure a premium driving experience.",
+        "With a five-passenger capacity, a high-strength steel safecage body, and features like electronic hydraulic braking (EHB) and tire pressure monitoring system (TPMS), the NETA V50 is designed for performance, safety, and comfort.",
+        "The NETA V50 offers advanced charging capabilities, including eight-hour AC home charging from zero to one hundred percent and a CCS2 body-integrated charge socket. Its safety and convenience features include parking sensors, a backup camera, and an electronic parking brake (EPB)."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "netav50_prices",
+      "patterns": [
+        "What is the price of the NETA V50?",
+        "How much does the NETA V50 cost?",
+        "What is the cost of the NETA V50?",
+        "Can you tell me the price of NETA V50?",
+        "What is the selling price of NETAV 50?",
+        "How much do I need to pay for the NETA V 50?",
+        "What is the current price of the NETAV 50?",
+        "What’s the price range of the NETA V50?",
+        "How much does it cost to buy the NETAV 50?",
+        "What’s the rate of the NETA V50?",
+        "What is the market price of NETA V50?",
+        "What’s the base price of the NETA V50?"
+      ],
+      "responses": [
+        "The Neta V50 is priced at rupees thirty-eight lakh ninety-nine thousand.",
+        "You can purchase the Neta V50 for rupees thirty-eight lakh ninety-nine thousand.",
+        "The cost of the Neta V50 is rupees thirty-eight lakh ninety-nine thousand.",
+        "Currently, the price of the Neta V50 is rupees thirty-eight lakh ninety-nine thousand.",
+        "The Neta V50 is available for rupees thirty-eight lakh ninety-nine thousand.",
+        "For rupees thirty-eight lakh ninety-nine thousand, you can own the Neta V50.",
+        "The Neta V50 comes with a price tag of rupees thirty-eight lakh ninety-nine thousand.",
+        "At rupees thirty-eight lakh ninety-nine thousand, the Neta V50 offers excellent value."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "netax_specs",
+      "patterns": [
+        "Can you tell me about the features of the NETA X?",
+        "What are the highlights of the NETA X?",
+        "Give me an overview of the NETA X.",
+        "What features does the NETA X offer?",
+        "Tell me about the specifications of the NETAX.",
+        "What makes the NETA X unique?",
+        "What is special about the NETAX?",
+        "Can you describe the NETA X?",
+        "What are the interior and exterior features of the NETAX?",
+        "What is the range and performance of the NETA X?",
+        "What are the technical specifications of the NETA X?",
+        "What type of vehicle is the NETAX?",
+        "Can you provide details about the NETA X?"
+      ],
+      "responses": [
+        "The Neta X is a modern and sporty SUV with an impressive NEDC range of five hundred kilometers and a top speed of one hundred fifty kilometers per hour. It offers advanced safety features, including six airbags and seventy-five percent high-strength steel construction.",
+        "The Neta X comes with a battery capacity of fifty-two kWh or sixty-two kWh and a motor power of one hundred kW, delivering a smooth and powerful driving experience. It also offers a ground clearance of one hundred eighty-five millimeters and a spacious double-decker trunk.",
+        "The Neta X is available in stylish exterior colors like White, Black, Blue, Gray, and Brown. Inside, it features a soft and comfortable interior with eighty percent soft leather. It combines luxury and sportiness for an exceptional driving experience.",
+        "Key highlights of the Neta X include a verified mileage of one point six million kilometers, high-strength steel construction for safety, and an ultra-long wheelbase that provides superior stability on the road.",
+        "This sporty SUV supports fast charging, allowing you to charge from thirty to eighty percent in just thirty minutes. It's equipped with a one hundred kW motor and offers exceptional safety with six airbags and advanced braking systems.",
+        "The Neta X is designed for comfort and practicality. It features a double-decker trunk with up to one thousand three hundred eighty-eight liters of space when the second row of seats is folded. Its interior combines both style and functionality.",
+        "For a premium experience, the Neta X offers luxurious interior options, impressive performance metrics, and a long cruising range, making it stand out in its segment.",
+        "With its sleek design, powerful motor, and cutting-edge safety features, the Neta X redefines what a sporty SUV can offer. It’s the perfect combination of performance and comfort."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "netax_prices",
+      "patterns": [
+        "What is the price of the NETA X?",
+        "How much does the NETA X cost?",
+        "Can you provide the price details for the NETA X?",
+        "What is the price range of the NETAX?",
+        "What are the prices of different NETA X models?",
+        "How much is the NETA X 400 Comfort?",
+        "What is the cost of the NETA X 500 Comfort?",
+        "What is the price for the NETAX 500 Luxury?",
+        "Tell me the price of the NETA X.",
+        "What are the costs for all the NETAX variants?",
+        "Can you tell me the price of NETAX variants?"
+      ],
+      "responses": [
+        "The Neta X models are priced as follows: The Neta X four-hundred Comfort is priced at rupees fifty-three lakh ninety-nine thousand, the Neta X five-hundred Comfort costs rupees fifty-seven lakh ninety-nine thousand, and the Neta X five-hundred Luxury is available for rupees sixty-two lakh ninety-nine thousand.",
+       "Here are the prices for the Neta X variants: The four-hundred Comfort model is priced at rupees fifty-three lakh ninety-nine thousand, the five-hundred Comfort model costs rupees fifty-seven lakh ninety-nine thousand, and the five-hundred Luxury model is priced at rupees sixty-two lakh ninety-nine thousand.",
+       "The Neta X starts at rupees fifty-three lakh ninety-nine thousand for the four-hundred Comfort model. The five-hundred Comfort variant is priced at rupees fifty-seven lakh ninety-nine thousand, and the five-hundred Luxury variant costs rupees sixty-two lakh ninety-nine thousand.",
+       "The prices for the Neta X models are as follows: The four-hundred Comfort is priced at rupees fifty-three lakh ninety-nine thousand, the five-hundred Comfort costs rupees fifty-seven lakh ninety-nine thousand, and the five-hundred Luxury variant is available for rupees sixty-two lakh ninety-nine thousand.",
+       "The price range for the Neta X models is as follows: The Neta X four-hundred Comfort is priced at rupees fifty-three lakh ninety-nine thousand, the five-hundred Comfort is priced at rupees fifty-seven lakh ninety-nine thousand, and the five-hundred Luxury costs rupees sixty-two lakh ninety-nine thousand.",
+        "The Neta X comes in three variants, with prices as follows: The four-hundred Comfort is priced at rupees fifty-three lakh ninety-nine thousand, the five-hundred Comfort is priced at rupees fifty-seven lakh ninety-nine thousand, and the five-hundred Luxury variant costs rupees sixty-two lakh ninety-nine thousand."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "netas_specs",
+      "patterns": [
+        "What are the features of the NETA S?",
+        "Tell me about the specifications of the NETA S.",
+        "Can you provide details about the NETA S?",
+        "What makes the NETAS unique?",
+        "What is the NETAS known for?",
+        "What are the highlights of the NETA S?",
+        "Can you describe the features of the NETA S?",
+        "What are the technical specifications of the NETA S?",
+        "What is special about the NETAS?",
+        "Give me an overview of the NETA S features.",
+        "What does the NETA S offer?"
+      ],
+      "responses": [
+        "The Neta S is an innovative sports electric vehicle with an impressive NEDC range of one thousand one hundred kilometers. It features active air suspension, L4 autonomous driving in some scenarios, and a high-pressure fast charging system that can provide one hundred fifty kilometers of range in just five minutes.",
+        "The Neta S stands out as a smart BEV sports car, accelerating from zero to one hundred kilometers per hour in under three point nine seconds. It excels in the Moose Test at speeds above eighty kilometers per hour, showcasing its superior stability and handling.",
+        "Equipped with intelligent driving features, the Neta S includes NCP city navigation, a powerful MDC six-ten computing platform, two laser radars, five millimeter-wave radars, and eleven cameras, all contributing to a safer and more efficient driving experience.",
+        "The Neta S boasts a luxurious and futuristic interior, featuring a panoramic thermal insulation skylight, a twelve point three-inch passenger screen, and an augmented reality HUD (AR-HUD) system. It also offers a premium sound experience with a seven hundred twenty-degree surround sound system.",
+        "Safety is top-notch with the Neta S, which includes intelligent security features and multiple layers of redundancy. It is designed for high-performance driving, with a wind resistance coefficient as low as zero point one two six and advanced suspension for a smooth and dynamic ride.",
+        "This model comes in several configurations, including the one thousand one hundred kilometers range extended version, the seven hundred fifteen laser radar version, and the seven hundred fifteen long battery life version, catering to a variety of customer preferences.",
+        "With its two thousand nine hundred eighty millimeter wheelbase, the Neta S offers spacious interiors that exceed expectations in its segment. The car integrates cutting-edge technology and elegant design, making it a standout choice for premium electric vehicle enthusiasts."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "netas_prices",
+      "patterns": [
+        "What is the price of the NETA S?",
+        "How much does the NETA S cost?",
+        "Can you tell me the price of the NETA S?",
+        "Is the price of the NETA S available?",
+        "What is the cost of the NETAS?",
+        "Has the price for the NETAS been announced?",
+        "How much is the NETA S going to cost?",
+        "What will be the price of the NETA S when it launches?",
+        "Is there any information on the NETA S pricing?",
+        "What is the expected price for the NETAS?",
+        "Can you share the price details for the NETAS?"
+      ],
+      "responses": [
+        "The NETA S has not been launched in the market yet, so its price has not been set. Stay tuned for updates as the release approaches.",
+        "Currently, the price for the NETA S has not been announced as it is not yet available on the market. Please check back later for pricing details.",
+        "The NETA S is coming soon, but its price is not yet determined. We'll provide pricing information as soon as it is released.",
+        "The pricing for the NETA S has not been disclosed since the vehicle has not been launched yet. Keep an eye out for future announcements.",
+        "At the moment, there is no confirmed price for the NETA S as it is still awaiting its market launch. Updates will be provided as they become available."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "neta_warrantys",
+      "patterns": [
+        "What is the warranty for NETA EVs?",
+        "Can you explain the warranty terms for NETA vehicles?",
+        "How long is the warranty for NETA EVs' battery and motor?",
+        "What are the warranty details for the NETA V50, NETA X, and NETA S?",
+        "What warranty is offered on the non-moving exterior parts of NETA EVs?",
+        "Tell me about the warranty coverage for NETA EVs.",
+        "How many years or kilometers is the warranty for NETA vehicles?",
+        "What is the warranty period for the battery and motor in NETA EVs?",
+        "Can you provide details about the NETA EV warranty?"
+      ],
+      "responses": [
+        "Neta EVs, including the Neta V50, Neta X, and Neta S, offer a warranty of two hundred thousand kilometers or ten years (whichever is earlier) on non-moving exterior parts. The warranty for the battery and motor is one hundred fifty thousand kilometers or eight years, whichever comes first.",
+        "The warranty for Neta EVs includes ten years or two hundred thousand kilometers (whichever is earlier) on non-moving exterior parts and eight years or one hundred fifty thousand kilometers (whichever is earlier) on the battery and motor.",
+        "For Neta EVs, the non-moving exterior parts are covered under warranty for ten years or two hundred thousand kilometers, while the battery and motor have a warranty of eight years or one hundred fifty thousand kilometers, whichever comes first.",
+        "Neta EVs provide a comprehensive warranty: ten years or two hundred thousand kilometers for non-moving exterior parts and eight years or one hundred fifty thousand kilometers for the battery and motor.",
+        "You can expect a warranty of two hundred thousand kilometers or ten years on non-moving exterior parts and one hundred fifty thousand kilometers or eight years on the battery and motor for Neta EVs."
+       ],
+      "context": [""]
+    },
+    {
+      "tag": "gacmotor_models",
+      "patterns": [
+        "What models are available under gac motor?",
+        "Which vehicles are provided by GAC Motor?",
+        "Can you tell me about the available models for gac motor?",
+        "What cars are offered by GAC Motor?",
+        "Is there a specific model from GAC Motor?",
+        "What is the model name under gac motor?",
+        "Can you provide details on the gac motor models?",
+        "Which models are offered by GAC motor?",
+        "What are the available cars under gac motor?",
+        "Tell me about the available model from GAC Motor."
+      ],
+      "responses": [
+        "The only available model under GAC Motor is the Aion Y.",
+        "Currently, GAC Motor offers the Aion Y as its available model.",
+        "The available model from GAC Motor is the Aion Y.",
+        "GAC Motor currently provides only the Aion Y as the available model."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "aiony_specs",
+      "patterns": [
+        "What are the specifications of the Aion y?",
+        "Can you tell me about the features of the aiony?",
+        "What are the key features of the aion y?",
+        "Can you provide the specifications for the Aion Y model?",
+        "What are the specifications of aiony?",
+        "Can you tell me the details about aion y?",
+        "What is the battery capacity of Aion Y?",
+        "Tell me about the dimensions of the Aion y.",
+        "What is the electric range of the aiony?",
+        "What are the highlights of the Aion y?",
+        "Can you explain the chassis system of the aiony?"
+        
+      ],
+      "responses": [
+        "The Aion Y has a length of four thousand five hundred thirty-five millimeters, a width of one thousand eight hundred seventy millimeters, and a height of one thousand six hundred fifty millimeters. Its wheelbase is two thousand seven hundred fifty millimeters.",
+        "The battery power of this car is one hundred kilowatts, with a torque of two hundred twenty-five N·m. The battery is of the lithium iron phosphate type, with a capacity of sixty-one point fifty-four kilowatt-hours.",
+        "The Aion Y offers an electric range of over five hundred kilometers (NEDC). The charging system includes a one-way 6.6 kW charger.",
+        "The chassis of this car includes a McPherson independent suspension in the front and a torsion-beam suspension in the rear. Both the front and rear brakes are disc brakes.",
+        "The features of this car include a fourteen point five-inch HD screen, a panoramic sunroof, skyline LED tail lights, and angel wing LED headlights."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "aiony_prices",
+      "patterns": [
+        "What is the price of the aion y?",
+        "How much does the AionY cost?",
+        "What is the price of Aion Y?",
+        "Can you tell me the price for the Aion Y?",
+        "What is the cost of the AionY model?",
+        "How much does the aiony sell for?",
+        "What is the price of the aionY in Nepal?",
+        "Can you give me the price details of the Aion Y?"
+      ],
+      "responses": [
+        "The price of the Aion Y is Fifty-eight lakh fifty thousand rupees.",
+        "Currently, the Aion Y is priced at Fifty-eight lakh fifty thousand rupees.",
+        "The Aion Y is available for Fifty-eight lakh fifty thousand rupees.",
+        "The cost of the Aion Y is Fifty-eight lakh fifty thousand rupees."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "kyc_models",
+      "patterns": [
+        "What models are available under KYC Changan?",
+        "Which vehicles are provided by KYC Changan?",
+        "Can you list the models offered by KYC Changan?",
+        "What cars are available from KYC Changan?",
+        "Is there a specific model under KYC Changan?",
+        "What is the model name available under KYC Changan?",
+        "Can you tell me the available model from KYC Changan?",
+        "Which vehicle does KYC Changan provide?",
+        "Is there only one model under KYC Changan?",
+        "Tell me about the models provided by KYC Changan."
+      ],
+      "responses": [
+        "Under KYC Changan, the available model is the Kuayue Chana V5D. It is a reliable and high-performing vehicle in its category.",
+        "KYC Changan offers the Kuayue Chana V5D as its available model. Let us know if you’d like more details about it.",
+        "The available model from KYC Changan is the Kuayue Chana V5D. It’s designed to meet diverse customer needs with excellent specifications.",
+        "The Kuayue Chana V5D is the model currently available under KYC Changan. Feel free to ask for additional information about its features.",
+        "KYC Changan provides the Kuayue Chana V5D as its primary model. It's a great choice for those looking for performance and innovation."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "kuayue_specs",
+      "patterns": [
+        "Tell me about the features of the Kuayue Chana V5D.",
+        "What are the specifications of the Kuayue Chana V5D?",
+        "Can you describe the Kuayue Chana V5D?",
+        "What features does the Kuayue Chana V5D have?",
+        "What are the details of the Kuayue Chana V5 D?",
+        "I want to know more about the Kuayue Chana V5 D.",
+        "Can you share the features of the Kuayue Chana V5D?",
+        "What is special about the Kuayue Chana V5 D?",
+        "Provide an overview of the Kuayue Chana V5D.",
+        "What are the highlights of the Kuayue Chana V5D.?",
+        "What does the Kuayue Chana V5D offer?"
+      ],
+      "responses": [
+        "The Kuayue Chana V5D is a pure electric vehicle with a seating capacity of eleven. It has dimensions of four thousand four hundred ninety-five by one thousand six hundred eighty by one thousand nine hundred ninety millimeters and a wheelbase of two thousand nine hundred thirty millimeters. The maximum speed is one hundred kilometers per hour, with an endurance mileage of three hundred kilometers, making it suitable for various purposes.",
+        "The Kuayue Chana V5D is equipped with a CATL battery offering a capacity of forty-one point eighty-six kWh and a peak motor power of fifty kW. It supports normal charging at six point six kW and uses Chinese-type charging, providing reliability and efficiency.",
+        "This model comes with advanced safety features like dual airbags and ABS, along with modern conveniences such as electric windows, central locking, and optional configurations like rear-view cameras and aluminum wheels.",
+        "The Kuayue Chana V5D has a gross vehicle weight of two thousand six hundred kilograms and a kerb weight of one thousand five hundred forty kilograms. It also includes front disc and rear drum brakes, a ground clearance of one hundred eighty millimeters, and durable one hundred ninety-five sixty-five R15 tires.",
+        "With its practical design, the Kuayue Chana V5D offers features like independent suspension, LED daytime running lights, and advanced driver aids such as tire pressure monitoring system (TPMS) and electric power steering (EPS), ensuring both functionality and safety for its users."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "kuayue_warrantys",
+      "patterns": [
+        "What is the warranty on the Kuayue Chana V5D?",
+        "Tell me about the warranty for the Kuayue Chana V5D.",
+        "What does the warranty cover for the Kuayue Chana V5 D?",
+        "How long is the warranty on the Kuayue Chana V5D?",
+        "What is the duration of the warranty for the Kuayue Chana V5 D?",
+        "Can you provide details on the Kuayue Chana V5D warranty?",
+        "What is the battery and motor warranty for the Kuayue Chana V5 D?",
+        "How much warranty does the Kuayue Chana V5D offer?",
+        "Is there a warranty on the Kuayue Chana V5D battery and motor?",
+        "What are the terms for the warranty on the Kuayue Chana V5D?"
+      ],
+      "responses": [
+        "The warranty for the Kuayue Chana V5D covers the battery and motor for up to five years or two hundred thousand kilometers, whichever comes first.",
+        "Kuayue Chana V5D offers a warranty of five years or two hundred thousand kilometers on the battery and motor, ensuring reliability and durability.",
+        "You can enjoy peace of mind with the Kuayue Chana V5D warranty, which covers the battery and motor for five years or two hundred thousand kilometers.",
+        "The warranty for the battery and motor of the Kuayue Chana V5D lasts for five years or two hundred thousand kilometers, depending on which occurs first.",
+        "The Kuayue Chana V5D comes with a warranty covering the battery and motor for five years or two hundred thousand kilometers, whichever comes first."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "kinglong_models",
+      "patterns": [
+        "What models are available under King Long?",
+        "Can you tell me about the KingLong models?",
+        "What is the available model under King Long?",
+        "Which model is available for King Long?",
+        "Tell me more about the King Long EV model.",
+        "What vehicle does KingLong offer?",
+        "Is the King Long EV available?",
+        "What is the KingLong model that is available?",
+        "Can you provide information about the King Long model?"
+      ],
+      "responses": [
+        "Under King Long, the available model is the KINGWIN EV Passenger Van.",
+        "The King Long brand offers the KINGWIN EV Passenger Van.",
+        "Currently, the available model under King Long is the KINGWIN EV Passenger Van.",
+        "King Long offers the KINGWIN EV Passenger Van as the available model.",
+        "The available model under King Long is the KINGWIN EV, a Passenger Van."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "kingwin_specs",
+      "patterns": [
+        "Can you tell me the specifications of the KINGWIN EV?",
+        "What are the features of the KING WIN EV Passenger Van?",
+        "What is the size and power of the KINGWIN EV?",
+        "Tell me about the KINGWIN EV Passenger Van's specifications.",
+        "Can you provide details about the KING WIN EV?",
+        "What are the key specifications of the KING WIN EV?",
+        "What is the motor and battery specification of the KING WIN EV?",
+        "Tell me about the dimensions and weight of the KINGWIN EV Passenger Van.",
+        "What are the highlights of the KING WIN EV?",
+        "What safety features are available in the KING WIN EV Passenger Van?"
+      ],
+      "responses": [
+        "The KINGWIN EV Passenger Van offers seating capacities of fourteen or nineteen seats, with dimensions of five thousand three hundred forty millimeters (L) by one thousand seven hundred millimeters (W) by two thousand two hundred eighty-five millimeters (H) for the high roof version. The vehicle has a wheelbase of two thousand eight hundred ninety millimeters and a ground clearance of one hundred eighty millimeters.",
+        "The KINGWIN EV Passenger Van features a PMSM motor with a maximum power of eighty kW and a rated power of fifty kW, producing a maximum torque of three hundred ten Nm. It is capable of reaching a maximum speed of one hundred kilometers per hour.",
+        "This vehicle is powered by a CATL fifty point twenty-three kWh battery, with a charging system using GB/T. It charges in eight hours with AC charging and forty-five minutes for DC charging (from twenty percent to eighty percent). The vehicle provides a driving mileage of three hundred kilometers (NEDC).",
+        "Safety features of the KINGWIN EV Passenger Van include ABS+EBD, seat belts, a fire extinguisher, front fog lamps, electronic power front windows and rearview mirrors, and an adjustable four-spoke leather steering wheel.",
+        "The KINGWIN EV Passenger Van comes with a direct drive rear axle, torsion bar spring front suspension, and five leaf springs in the rear suspension for stability. The vehicle also has a twenty-five percent maximum gradient capability.",
+        "In terms of safety, the vehicle is equipped with a front disc and rear drum brake system, ABS+EBD for brake assist, and additional features like a fire extinguisher and adjustable rear and front lighting."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "kinglong_warrantys",
+      "patterns": [
+        "What is the warranty for the KINGWIN EV Passenger Van?",
+        "Can you tell me about the warranty terms for the KING WIN EV?",
+        "How long is the warranty for the KING WIN EV battery and motor?",
+        "What are the warranty details for the KINGWIN EV Passenger Van?",
+        "How many years or kilometers is the warranty for the battery and motor?",
+        "Tell me about the warranty coverage for the KING WIN EV Passenger Van.",
+        "What warranty is offered on the KING WIN EV's battery and motor?"
+      ],
+      "responses": [
+        "The KINGWIN EV Passenger Van comes with a warranty of two hundred thousand kilometers or five years, whichever comes first, for the battery and motor.",
+        "The warranty for the battery and motor of the KINGWIN EV Passenger Van lasts for two hundred thousand kilometers or five years, depending on which comes first.",
+        "The KINGWIN EV provides a warranty of five years or two hundred thousand kilometers (whichever is earlier) on the battery and motor.",
+        "The warranty on the battery and motor of the KINGWIN EV Passenger Van is valid for two hundred thousand kilometers or five years, whichever comes first."
+     ],
+      "context": [""]
+    },
+    {
+      "tag": "contact_infos",
+      "patterns": [
+        "How can I contact CG Motors?",
+        "What is the contact information for CG Motors?",
+        "Where is the CG Motors head office located?",
+        "What are the contact details for the NETA showroom?",
+        "How can I reach CG Motors for inquiries?",
+        "Where are CG Motors' showrooms located?",
+        "What is the email address for CG Motors?",
+        "Is there a toll-free number for CG Motors?",
+        "Where is the corporate office of CG Motors located?"
+      ],
+      "responses": [
+        "You can contact CG Motors at their corporate office in Sanepa, Lalitpur, Nepal. The NETA showroom is located at Thapathali, Kathmandu, and the CG KYC & Kinglong showroom is in Panipokhari. For service-related inquiries, visit Hattiban, Lalitpur. Toll-free support is available at one-six-six-zero-zero-one-one-one-two-six-nine.",
+        "For inquiries regarding NETA vehicles, call zero one-five-nine-seven-zero-one-seven-four, nine-eight-two-zero-one-zero-five-zero-five-five, or nine-eight-zero-two-three-four-one-eight-two-zero. For CG KYC & Kinglong, call nine-eight-zero-two-three-four-zero-nine-four-six or nine-eight-zero-one-four-six-two-eight-two-three. Additionally, the toll-free number is one-six-six-zero-zero-one-one-one-two-six-nine.",
+        "CG Motors' email address is info@cgmotors.com.np. Feel free to reach out for any questions or assistance.",
+        "The corporate office of CG Motors is located in Sanepa, Lalitpur. Showrooms include the NETA showroom at Thapathali, Kathmandu, and the CG KYC & Kinglong showroom at Panipokhari.",
+        "For any assistance, you can contact CG Motors via email at info@cgmotors.com.np or by phone. Toll-free support is available at one-six-six-zero-zero-one-one-one-two-six-nine.",
+        "CG Motors' service center is located in Hattiban, Lalitpur. For detailed assistance, you can also contact them at info@cgmotors.com.np."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "unknown",
+      "patterns":[
+        "What's the weather like today?",
+        "Can you recommend a good restaurant?",
+        "How do I cook pasta?",
+        "What time is it in New York?",
+        "Tell me a joke",
+        "Tell me about the new Tesla Model 3",
+        "What's the price of a Toyota Camry?",
+        "When will the new BMW launch?",
+        "Is Honda better than Toyota?",
+        "Where can I buy a Hyundai?",
+        "What's the population of Kathmandu?",
+        "How tall is Mount Everest?",
+        "Tell me about Nepalese cuisine",
+        "What's the best time to visit Nepal?",
+        "How's the political situation in Nepal?",
+        "Set an alarm for 7 AM",
+        "Add milk to my shopping list",
+        "Call my mother",
+        "Send an email to John",
+        "What's on my calendar today?",
+        "How do I format my computer?",
+        "My phone isn't working",
+        "How do I set up WiFi?",
+        "Fix my printer",
+        "My laptop is slow",
+        "What's the current gold rate?",
+        "How do I invest in stocks?",
+        "Tell me about cryptocurrency",
+        "What's the exchange rate today?",
+        "How do I open a bank account?",
+        "What movies are playing?",
+        "Who won the Oscar this year?",
+        "Latest cricket match score",
+        "Popular songs in Nepal",
+        "TV show recommendations",
+        "Book a flight to Pokhara",
+        "Best hotels in Kathmandu",
+        "How to get a visa?",
+        "Public transportation routes",
+        "Tourist attractions in Nepal",
+        "How do cars work?",
+        "When was the first car invented?",
+        "What is an internal combustion engine?",
+        "Why do cars need oil?",
+        "How often should I change tires?",
+        "How do I start a business?",
+        "Register a company in Nepal",
+        "Import regulations",
+        "Business loan information",
+        "Corporate tax rates",
+        "Common cold remedies",
+        "vaccination centers",
+        "Find a doctor",
+        "Hospital locations",
+        "Medical insurance coverage",
+        "Best colleges in Nepal",
+        "How to apply for scholarships",
+        "Engineering course details",
+        "School admission process",
+        "Online learning platforms",
+        "House prices in Kathmandu",
+        "Rent an apartment",
+        "Property registration process",
+        "Land prices in Nepal",
+        "Real estate agents",
+        "Job openings in Kathmandu",
+        "How to write a CV",
+        "Interview tips",
+        "Salary negotiations",
+        "Career counseling",
+        "Best smartphone to buy",
+        "Computer repair shops",
+        "Internet service providers",
+        "Software development",
+        "Web hosting services",
+        "Online shopping sites",
+        "Electronics stores",
+        "Furniture shops",
+        "Clothing",
+        "Grocery delivery",
+        "Gym memberships",
+        "Football match schedule",
+        "Cricket tournament",
+        "Fitness tips",
+        "Sports equipment",
+        "Home renovation tips",
+        "Gardening advice",
+        "Interior decoration",
+        "Plumbing services",
+        "Electricity issues",
+        "Legal advice needed",
+        "Lawyer recommendations",
+        "Document attestation",
+        "Court procedures",
+        "Marriage registration",
+        "Passport renewal process",
+        "Citizenship certificate",
+        "Tax filing deadline",
+        "Government office timing",
+        "Municipal services",
+        "Food delivery options",
+        "Restaurant recommendations",
+        "Recipes for momos",
+        "Best cafes in town",
+        "Vegetarian restaurants",
+        "Beauty salon nearby",
+        "Laundry services",
+        "Wedding planners",
+        "Event management",
+        "Photography services",
+        "Electricity bill payment",
+        "Water supply issues",
+        "Internet connection",
+        "Gas cylinder delivery",
+        "Waste management",
+        "Farming techniques",
+        "Seed suppliers",
+        "Agricultural loans",
+        "Weather forecast for farming",
+        "Organic farming methods"
+      ],
+      "responses": [
+        "Sorry, the question you asked is not related to CG Motors. Please ask about CG Motors, its vehicles, or services.",
+       "The topic you asked about is not my area of focus. You can ask questions related to CG Motors and its electric vehicles.",
+       "I am unable to address your question. Please ask about CG Motors' services, electric cars, or brands.",
+       "Sorry, I am unable to answer this question. I am here to assist with information regarding CG Motors.",
+       "I am unable to understand your inquiry. Please ask about information related to CG Motors.",
+       "This topic is not within my knowledge domain. Please ask about CG Motors and its electric cars for more details.",
+        "I am unable to answer this question. Please ask for more information about CG Motors' products or services.",
+       "I cannot provide an answer to this question. Please ask about CG Motors and its electric vehicles."
+      ]
+  }
+]
+}
